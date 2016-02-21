@@ -1,10 +1,6 @@
-jQuery.validator.addMethod('answercheck', function (value, element) {
-        return this.optional(element) || /^\bcat\b$/.test(value);
-    }, "type the correct answer -_-");
-
 // validate contact form
 $(function() {
-    $('#contact').validate({
+    $('#contact-form').validate({
         rules: {
             name: {
                 required: true,
