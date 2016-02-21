@@ -32,15 +32,15 @@ $(function() {
                 data: $(form).serialize(),
                 url:"assets/php/sendemail.php",
                 success: function() {
-                    $('#contact :input').attr('disabled', 'disabled');
-                    $('#contact').fadeTo( "slow", 0.15, function() {
+                    $('#contact-form :input').attr('disabled', 'disabled');
+                    $('#contact-form').fadeTo( "slow", 0.15, function() {
                         $(this).find(':input').attr('disabled', 'disabled');
                         $(this).find('label').css('cursor','default');
                         $('#success').fadeIn();
                     });
                 },
                 error: function() {
-                    $('#contact').fadeTo( "slow", 0.15, function() {
+                    $('#contact-form').fadeTo( "slow", 0.15, function() {
                         $('#error').fadeIn();
                     });
                 }
