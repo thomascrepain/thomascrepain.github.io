@@ -6,17 +6,12 @@
 	$message = @trim(stripslashes($_POST['message'])); 
 
 	$email_from = $email;
-	$email_to = 'nasirbinburhan@gmail.com'; //replace with your email
+	$email_to = 'info@thomascrepain.be';
 
-	$body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
 
-	$success = @mail($email_to, $body, 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message);
-	
-?>
+    if (!empty($name) && !empty($email) && !empty($subject) && !empty($message)) {
+	    $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
 
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<script>alert("Thank you for contact us. As early as possible  we will contact you.");</script>
-	<meta HTTP-EQUIV="REFRESH" content="0; url=http://trendytheme.net/demo/iamx/v/"> 
-</head>
+	    $success = @mail($email_to, $body, 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message);
+	}
+
