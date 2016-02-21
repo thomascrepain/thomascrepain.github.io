@@ -9,21 +9,22 @@
 /*
 ====================================
 ------------------------------------
-    1. General
-    2. Typography
-    3. Home
-    4. Navigation
-    5. About
-    6. Video
-    7. Resume
-    8. Skill
-    9. Chart
-    10. Work
-    11. Facts
-    12. Blog
-    13. Hire
-    14. Contact
-    15. Footer
+    - General
+    - Typography
+    - Home
+    - Navigation
+    - About
+    - Video
+    - Resume
+    - Leisure
+    - Skill
+    - Chart
+    - Work
+    - Facts
+    - Blog
+    - Hire
+    - Contact
+    - Footer
 -------------------------------------
 =====================================
 */
@@ -268,7 +269,7 @@ ul.list-check li::before {
 
 /* === MAIN === */
 .section-padding {
-	padding: 120px 0 100px;
+	padding: 60px 0 60px;
 }
 
 
@@ -306,7 +307,7 @@ ul.list-check li::before {
 
 
 #home {
-	background: url(../images/home2.jpg) no-repeat center center;
+background: url(../images/home.jpg) no-repeat center center;
 	-webkit-background-attachment: fixed;
     background-attachment: fixed;
 	background-color: #222;
@@ -411,6 +412,10 @@ SOCIAL ICON
 }
 
 
+/* === ROWS  ===*/
+.row{
+    margin-bottom: 30px;
+}
 /* === NAVIGATION === */
 .header {
     border-bottom: 1px solid #eee;
@@ -554,6 +559,9 @@ SOCIAL ICON
 
 
 /*download-button*/
+.download-button{
+    margin-top: 40px;
+}
 .download-button a {
     margin-right: 20px;
     color: #fff;
@@ -586,7 +594,7 @@ SOCIAL ICON
     background-size: contain;
 }
 
-.myphoto img{
+.myphoto .img{
     position: relative;
     z-index: -1;
 }
@@ -652,6 +660,7 @@ SOCIAL ICON
 /*---------------------------------------------------------
 Resume Timeline
 -----------------------------------------------------------*/
+
 .resume-title h3{
     text-align: center;
 }
@@ -668,6 +677,7 @@ Resume Timeline
     position: relative;
     padding: 0;
     list-style: none;
+    margin-bottom:30px;
 }
 
 .resume{
@@ -904,7 +914,7 @@ Resume Timeline
 }
 .timeline>li .timeline-panel::after {
     left: 100%;
-    margin-left: -2px;
+    margin-left: 0px;
     border-left: 12px solid #FFFFFF;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
@@ -917,7 +927,7 @@ Resume Timeline
 
 .timeline>li.timeline-inverted .timeline-panel::after {
     right: 100%;
-    margin-right:-2px;
+    margin-right:0px;
     border-right: 12px solid #FFFFFF;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
@@ -942,7 +952,38 @@ Resume Timeline
 
 }
 
-
+/* === Leisure Section === */
+.leisure-section {
+    background-color: #1a1e23;
+    color: #fff;   
+}
+.leisure-section .section-title{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 110px;  
+}
+.leisure-section .section-title h2{
+    color: #fff;
+}
+.leisure-title {
+    width: 25%;
+    float: left;
+}
+.leisure-title h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -6px;
+    text-transform: capitalize;
+}
+.leisure-section .timeline>li .posted-date{
+    background:#1a1e23;
+}
+.leisure-section .timeline>li .posted-date .month{
+    color:#fff;
+}
+.leisure-section .timeline-content {
+    background:#1a1e23; 
+}
 
 /* === Skill Section === */
 .skills-section {

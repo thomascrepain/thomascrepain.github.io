@@ -79,10 +79,8 @@
 						<li><a href="#home">Home</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#resume">Resume</a></li>
-						<li><a href="#skills">Skills</a></li>
-						<li><a href="#works">Works</a></li>
-						<li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
+						<li><a href="#leisure">Leisure</a></li>
+                        <li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div><!-- .container -->
@@ -99,20 +97,26 @@
 
           <div class="col-md-4 col-md-push-8">
             <div class="biography">
-              <div class="myphoto">
-                <img src="assets/images/myphoto.jpg" alt="">
+              <div class="myphoto"
+                   onmouseover="$('.myphoto img').attr('src', 'assets/images/myphoto-hover.jpg');"
+                   onmouseout="$('.myphoto img').attr('src', 'assets/images/myphoto.jpg');">
+                <img src="assets/images/myphoto.jpg" 
+                     alt="Thomas Crepain">
               </div>
             </div>
           </div> <!-- col-md-4 -->
 
           <div class="col-md-8 col-md-pull-4">
             <div class="short-info wow fadeInUp">
-<p>Developing custom PHP applications in Zend Framework (I &amp; II) and Symfony. Always searching for the best solution. Loves a challenge.</p>
+                <p>Developing custom PHP applications in Zend Framework (I &amp; II) and Symfony. Always searching for the best solution. Loves a challenge.</p>
 
-<p>Developing myself as a volunteer at FOS Open Scouting vzw. Creating products for youth leaders, opening up the association to youth with disabilities or originating from minority groups, moving FOS Open Scouting forward.</p>              
+                <p>Developing myself as a volunteer at FOS Open Scouting vzw. Creating products for youth leaders, opening up the association to youth with disabilities or originating from minority groups, moving FOS Open Scouting forward.</p>              
+        
+                <div class="download-button">
+                    <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+                </div>
             </div>
           </div>
-
         </div> <!-- /.row -->
       </div> <!-- /.container -->
     </section><!-- End About Section -->
@@ -147,7 +151,7 @@
                                 </div><!-- /timeline-panel -->
                             </li>
 
-                            <li>
+                            <li class="timeline-inverted">
                                 <div class="posted-date">
                                   <span class="month">2007-2010</span>
                                 </div><!-- /posted-date -->
@@ -160,7 +164,7 @@
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
-                                            <p>Including an internship in webdevelopment at <a href="https://www.wijs.be">Netlash</a> where I worked on several projects as a PHP webdeveloper based on Fork CMS.</p>
+                                            <p>Including an internship in webdevelopment at <a href="https://www.wijs.be">Netlash</a> where I worked as a PHP webdeveloper on several projects based on Fork CMS.</p>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
@@ -232,7 +236,7 @@
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
-                                            <p>I tested a custom developed webbased application that manages memberships, event subscriptions and members insurance. I also created the ICT policy which is still in effect today. To make sure this would be kept in place I created a work-group consisting of volunteers.</p>
+                                            <p>I tested a custom developed webbased application that manages memberships, event subscriptions and members insurance. I also created the ICT policy which is still in effect today. To make sure this would be kept in place I created a working group consisting of volunteers.</p>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
@@ -241,462 +245,100 @@
                     </div>
                 </div>
             </div><!-- /row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Courses</h3>
+                    </div>
+                    <div>
+                        <ul class="courses-overview">
+                            <li>September 2015: Fundamentals of Magento 2 development</li>
+                            <li>July 2012: Zend Framework: fundamentals course</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+
         </div><!-- /.container -->
     </section><!-- End Resume Section -->
 
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">Skills</h2>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="skill-progress">
-              <div class="skill-title"><h3>UX Design</h3></div> 
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-
-            <div class="skill-progress">
-              <div class="skill-title"><h3>Visual Design</h3></div> 
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-            <div class="skill-progress">
-              <div class="skill-title"><h3>Business Design</h3></div>  
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-          </div><!-- /.col-md-6 -->
-
-          <div class="col-md-6">
-            <div class="skill-progress">
-              <div class="skill-title"><h3>Branding Design</h3></div> 
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-            <div class="skill-progress">
-              <div class="skill-title"><h3>Motion Graphic</h3></div> 
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-            <div class="skill-progress">
-              <div class="skill-title"><h3>Flyers Designing</h3></div>  
-              <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.skill-progress -->
-          </div><!-- /.col-md-6 -->
-        </div><!-- /.row -->
-
-        <div class="skill-chart text-center">
-          <h3>More skills</h3>
-        </div>
-          
-        <div class="row more-skill text-center">
-          <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="91" data-color="e74c3c">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>leadership</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="23" data-color="2ecc71">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Creativity</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="68" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Management</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="68" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Branding</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="68" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Marketing</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="68" data-color="3498db">
-                    <span class="percent"></span>
-                    <div class="chart-text">
-                      <span>Motivation</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-      </div><!-- /.container -->
-    </section><!-- End Skills Section -->
-
-
-    <!-- Works Section -->
-    <section id="works" class="works-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">Works</h2>
-
-        <ul class="list-inline" id="filter">
-            <li><a class="active" data-group="all">All</a></li>
-            <li><a data-group="design">Design</a></li>
-            <li><a data-group="web">Web</a></li>
-            <li><a data-group="interface">Interface</a></li>
-            <li><a data-group="identety">Identity</a></li>
-        </ul>
-
-        <div class="row">
-          <div id="grid">
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-1.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-1.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-
-
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-2.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-2.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "interface"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-3.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-3.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-4.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-4.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-5.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-5.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-6.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-6.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-7.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-7.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "design"]'>
-              <div class="portfolio-bg">
-                <div class="portfolio">
-                  <div class="tt-overlay"></div>
-                  <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-8.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
-                  </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-8.jpg" alt="image"> 
-                  <div class="portfolio-info">
-                    <h3>Portfolio Title</h3>
-                  </div><!-- /.portfolio-info -->
-                </div><!-- /.portfolio -->
-              </div><!-- /.portfolio-bg -->
-            </div><!-- /.portfolio-item -->
-          </div><!-- /#grid -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- End Works Section -->
-
-
-    <!-- Facts Section -->
-    <section id="facts" class="facts-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
-      <div class="tt-overlay-bg">
+    <!--Volunteering Section-->
+    <section id="leisure" class="leisure-section">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="count-wrap">
-                <div class="col-sm-3 col-xs-6">
-                  <i class="fa fa-flask"></i>
-                  <h3 class="timer">7</h3>
-                  <p>Years of Experience</p>
-                </div>
-                <div class="col-sm-3 col-xs-6"> 
-                  <i class="fa fa-thumbs-up"></i>
-                  <h3 class="timer">651</h3>                
-                  <p>Projects Done</p>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                  <i class="fa fa-users"></i>
-                  <h3 class="timer">251</h3> 
-                  <p>Happy Clients</p>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                  <i class="fa fa-trophy"></i>
-                  <h3 class="timer">5</h3> 
-                  <p>Awards Won</p>
-                </div>
-              </div><!-- /count-wrap -->
-            </div><!-- /.col-md-12 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div>
-    </section> <!-- End Facts Section -->
+            <h2 class="section-title wow fadeInUp">Leisure</h2>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Volunteering</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">July 2012 - present</span>
+                                </div><!-- /posted-date -->
 
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Volunteer</h3>
+                                            <span><a href="https://www.fosopenscouting.be">FOS Open Scouting vzw</a></span>
+                                        </div><!-- /timeline-heading -->
 
-    <!-- Blog Section -->
-    <section id="blog" class="latest-blog-section section-padding">
-      <div class="container">
-        <h2 class="section-title wow fadeInUp">Latest Post</h2>
+                                        <div class="timeline-body">
+                                            
+                                            <h4>2013 - present: Member of the diversity team</h4>
+                                            <p>We try to open up the association for youth originating from ethnic and other minority groups, as well as to encourage guiding and scouting for youth with disabilities.</p>
 
-        <div class="row">
-          <div class="col-sm-4">
-            <article class="blog-post-wrapper">
-              <div class="figure">    
-                <div class="post-thumbnail">
-                  <a href="#"><img src="assets/images/blog/01.jpg" class="img-responsive " alt=""></a>
+                                            <h4>2012 - present: Team leader of the Working group ICT</h4>
+                                            <p>I created this working group after working for the organisation as a stafmember ICT. With this team we maintain the ICT policy. As a recent project we migrated our fysical server infrastructure to the cloud.</p>
+                                            
+                                            <h4>2011-2015 Team leader of JaHoe!? (pedagogical product team)</h4>
+                                            <p>This team develops products for youth leaders in order to help them create first-class activities. Till 2015 I managed the different teams and enabled them in creating the best products possible.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">2004 - 2011</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Youth leader for children<br />between 5 and 16</h3>
+                                            <span><a href="http://www.menapiers.be">39e FOS, De Menapi&euml;rs</a></span>
+                                        </div><!-- /timeline-heading -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                  <i class="fa fa-file-photo-o"></i>
-              </div><!-- /.figure -->
-              <header class="entry-header">
-                <div class="post-meta">
-                  <span class="the-category"> 
-                    <a href="#">Print Design,</a> <a href="#">Photoshop</a>
-                  </span>
+            </div><!-- /row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Courses</h3>
+                    </div>
+                    <div>
+                        <ul class="courses-overview">
+                            <li>2014 - present: Flemish Sign Language at <a href="http://www.fevlado.be">Fevlado vzw</a></li>
+                            <li>March 2010: Youth instructor course at <a href="http://www.fosopenscouting.be">FOS Open Scouting vzw</a></li>
+                            <li>2007 - 2008: Advanced First Aid at <a href="http://www.hvk.be">Het Vlaamse Kruis vzw</a></li>
+                            <li>October 2007: Youth head animator course at <a href="http://www.fosopenscouting.be">FOS Open Scouting vzw</a></li>
+                            <li>October 2004: Youth animator course at <a href="http://www.fosopenscouting.be">FOS Open Scouting vzw</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <h2 class="entry-title"><a href="blog-single.html" rel="">Common fonts used for newspaper template design</a></h2>
-                <hr>
-                <div class="entry-meta">
-                  <ul class="list-inline">
-                    <li>
-                      <span class="the-author">
-                        <a href="#">Admin</a> 
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-time">
-                        <a href="#">06 Jan 2015</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-share">
-                        <a href="#" title="share">30</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-comments">
-                        <a href="#" title="">05</a>
-                      </span>
-                    </li>
-                  </ul>
-                </div><!-- .entry-meta -->
-              </header><!-- .entry-header -->
-            </article>
-          </div><!-- /.col-sm-4 -->
-          <div class="col-sm-4">
-            <article class="blog-post-wrapper">
-              <div class="figure">    
-                <div class="post-thumbnail">
-                  <a href="#"><img src="assets/images/blog/02.jpg" class="img-responsive " alt=""></a>
-                </div>
-                  <i class="fa fa-file-video-o"></i>
-              </div><!-- /.figure -->
-              <header class="entry-header">
-                <div class="post-meta">
-                  <span class="the-category"> 
-                    <a href="#">Print Design,</a> <a href="#">Photoshop</a>
-                  </span>
-                </div>
-                <h2 class="entry-title"><a href="blog-single.html" rel="">What is the style of font called that is typically</a></h2>
-                <hr>
-                <div class="entry-meta">
-                  <ul class="list-inline">
-                    <li>
-                      <span class="the-author">
-                        <a href="#">Admin</a> 
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-time">
-                        <a href="#">06 Jan 2015</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-share">
-                        <a href="#" title="share">30</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-comments">
-                        <a href="#" title="">05</a>
-                      </span>
-                    </li>
-                  </ul>
-                </div><!-- .entry-meta -->
-              </header><!-- .entry-header -->
-            </article>
-          </div><!-- /.col-sm-4 -->
-          <div class="col-sm-4">
-            <article class="blog-post-wrapper">
-              <div class="figure">    
-                <div class="post-thumbnail">
-                  <a href="#"><img src="assets/images/blog/03.jpg" class="img-responsive " alt=""></a>
-                </div>
-                  <i class="fa fa-quote-left"></i>
-              </div><!-- /.figure -->
-              <header class="entry-header">
-                <div class="post-meta">
-                  <span class="the-category"> 
-                    <a href="#">Print Design,</a> <a href="#">Photoshop</a>
-                  </span>
-                </div>
-                <h2 class="entry-title"><a href="blog-single.html" rel="">How to create a print ready brochure using photoshop</a></h2>
-                <hr>
-                <div class="entry-meta">
-                  <ul class="list-inline">
-                    <li>
-                      <span class="the-author">
-                        <a href="#">Admin</a> 
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-time">
-                        <a href="#">06 Jan 2015</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-share">
-                        <a href="#" title="share">30</a>
-                      </span>
-                    </li>
-                    <li>
-                      <span class="the-comments">
-                        <a href="#" title="">05</a>
-                      </span>
-                    </li>
-                  </ul>
-                </div><!-- .entry-meta -->
-              </header><!-- .entry-header -->
-            </article>
-          </div><!-- /.col-md-4 -->
-        </div><!-- /.row -->
-        <div class="blog-more text-center">
-          <a href="#" class="btn btn-primary">View More</a>
+            </div><!-- /row -->
         </div>
-        
-      </div><!-- /.container -->
-    </section><!-- End Blog Section -->
-
-
-    <!-- Hire Section -->
-    <section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
-      <div class="hire-section-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h2>I'm available for freelance project</h2>
-              <a href="#" class="btn btn-default">Get Hired</a>
-            </div><!-- /.col-md-12 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div><!-- /.hire-section-bg -->
-    </section><!-- End Hire Section -->
-
-
+    </section><!--End Volunteering Section-->
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section section-padding">
@@ -704,7 +346,7 @@
         <h2 class="section-title wow fadeInUp">Get in touch</h2>
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="contact-form">
               <strong>Send me a message</strong>
               <form name="contact-form" method="post" action="assets/php/sendemail.php">
@@ -728,38 +370,8 @@
                 <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
               </form>
             </div>
-          </div><!-- /.col-md-6 -->
+          </div><!-- /.col-md-12 -->
 
-          <div class="col-md-6">
-            <div class="row center-xs">
-              <div class="col-sm-6">
-                <i class="fa fa-map-marker"></i>
-                <address>
-                  <strong>Address/Street</strong>
-                  239/2 Awesome Street,<br>
-                  Boston, USA<br>
-                </address>
-              </div>
-
-              <div class="col-sm-6">
-                <i class="fa fa-mobile"></i>
-                <div class="contact-number">
-                  <strong>Phone Number</strong>
-                  (001) 0123 111222<br>
-                  (001) 0123 333444
-                </div>
-              </div>
-            </div>
-
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="location-map">
-                <div id="mapCanvas" class="map-canvas"></div>
-              </div>
-            </div>
-          </div>
-
-          </div>
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- End Contact Section -->
