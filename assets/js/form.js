@@ -13,32 +13,24 @@ $(function() {
             message: {
                 required: true
             },
-            answer: {
-                required: true,
-                answercheck: true
-            }
         },
         messages: {
             name: {
-                required: "come on, you have a name don't you?",
-                minlength: "your name must consist of at least 2 characters"
+                required: "Come on, you have a name don't you?",
+                minlength: "Your name must consist of at least 2 characters"
             },
             email: {
-                required: "no email, no message"
+                required: "No email, no message"
             },
             message: {
-                required: "um...yea, you have to write something to send this form.",
-                minlength: "thats all? really?"
-            },
-            answer: {
-                required: "sorry, wrong answer!"
+                required: "You have to write something to send this form.",
             }
         },
         submitHandler: function(form) {
             $(form).ajaxSubmit({
                 type:"POST",
                 data: $(form).serialize(),
-                url:"process.php",
+                url:"assets/php/sendemail.php",
                 success: function() {
                     $('#contact :input').attr('disabled', 'disabled');
                     $('#contact').fadeTo( "slow", 0.15, function() {
