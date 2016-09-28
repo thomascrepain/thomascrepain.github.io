@@ -1,0 +1,28 @@
+ody{
+    font-family: 'Roboto', Georgia, 'Times New Roman', sans-serif;
+    line-height 1.1em;
+    font-weight: 300;
+    font-size: 10pt;	
+    color:#282828 !important;
+    background-color: #fff;
+}
+
+a:link:after {
+    content: " (" attr(href) ") ";
+}
+
+.no-print {
+   display: none !important;
+}
+
+nav, footer {
+   display: none !important;
+}
+
+.btn, .scroll-up {
+   display:none !important;
+}
+
+#home {
+    height: auto !important;
+}

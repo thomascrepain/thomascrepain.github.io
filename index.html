@@ -4,23 +4,24 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Thomas Crepain, PHP Internet Application Developer and quality assurance officer at Studio Emma. Volunteer at FOS Open Scouting">
+	<meta name="description" content="Thomas Crepain, Functional analyst and quality assurance officer at Studio Emma. Volunteer at FOS Open Scouting">
 	<meta name="author" content="Thomas Crepain">
 
 	<title>Thomas Crepain</title>
 
   <!-- Web Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css' media="screen, print">
 	<!-- Bootstrap core CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- Font Awesome CSS -->
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen, print">
 	<!-- Animate css -->
   <link href="assets/css/animate.css" rel="stylesheet">
   <!-- Magnific css -->
 	<link href="assets/css/magnific-popup.css" rel="stylesheet">
 	<!-- Custom styles CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+        <link href="assets/css/style.css" rel="stylesheet" media="screen">
+	<link href="assets/css/print.css" rel="stylesheet" media="print">
   <!-- Responsive CSS -->
   <link href="assets/css/responsive.css" rel="stylesheet">
 
@@ -44,12 +45,12 @@
 	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
 		<div class="intro">
 			<h1>Thomas <span>Crepain</span></h1>
-            <p>
-                Developing custom PHP applications in Zend Framework (I & II) and Symfony.<br /> 
+            <p class="no-print">
+                Creating custom web applications in Zend Framework (I & II) and Symfony.<br /> 
                 Always searching for the best solution. Loves a challenge.
             </p>
 
-                  <div class="social-icons">
+                  <div class="social-icons no-print">
             <ul class="list-inline">
               <li><a href="https://www.linkedin.com/in/thomascrepain" rel="external"><i class="fa fa-linkedin"></i></a></li>
               <li><a href="https://github.com/thomascrepain" rel="external"><i class="fa fa-github"></i></a></li>
@@ -97,7 +98,7 @@
 
           <div class="col-md-4 col-md-push-8">
             <div class="biography">
-              <div class="myphoto"
+              <div class="myphoto no-print"
                    onmouseover="$('.myphoto img').attr('src', 'assets/images/myphoto-hover.jpg');"
                    onmouseout="$('.myphoto img').attr('src', 'assets/images/myphoto.jpg');">
                 <img src="assets/images/myphoto.jpg" 
@@ -108,12 +109,12 @@
 
           <div class="col-md-8 col-md-pull-4">
             <div class="short-info wow fadeInUp">
-                <p>Developing custom PHP applications in Zend Framework (I &amp; II) and Symfony. Always searching for the best solution. Loves a challenge.</p>
+                <p>Creating custom web applications in Zend Framework (I &amp; II) and Symfony. Always searching for the best solution. Loves a challenge.</p>
 
-                <p>Developing myself as a volunteer at FOS Open Scouting vzw. Creating products for youth leaders, opening up the association to youth with disabilities or originating from minority groups, moving FOS Open Scouting forward.</p>              
+                <p>Developing myself as a volunteer at FOS Open Scouting vzw. Creating products for youth leaders, opening up the association to youth with disabilities and originating from minority groups, moving FOS Open Scouting forward.</p>              
         
                 <div class="download-button">
-                    <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+                    <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me a message</a>
                 </div>
             </div>
           </div>
@@ -141,7 +142,7 @@
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Postgraduate IT-management</h3>
-                                            <span>University College Ghent</span>
+                                            <span><a href="https://www.hogent.be/en/" rel="external">University College Ghent</a></span>
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
@@ -160,7 +161,7 @@
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Bachelor degree Applied Informatics</h3>
-                                            <span>University College West-Flanders</span>
+                                            <span><a href="http://www.howest.be/" rel="external">University College West-Flanders</a></span>
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
@@ -179,7 +180,7 @@
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Secondary school certificate</h3>
-                                            <span>Science and technology, Immaculate Instituut, Bruges</span>
+                                            <span><a href="http://www.immaculata-brugge.be/" rel="external">Science and technology, Immaculate Instituut, Bruges</a></span>
                                         </div><!-- /timeline-heading -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
@@ -196,9 +197,53 @@
                     </div>
                     <div class="resume">
                         <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">March 2016 - present</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Functional analyst<br /> Quality Assurance Officer</h3>
+                                            <span><a href="https://www.studioemma.com" rel="external">Studio Emma bvba</a></span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+				    	    <p>I receive the requirements from our customers and translate them into user stories so they can be implemented. I create estimates on these stories and use these estimates with the given priority to fill in the development sprints.</p>
+                                            
+                                            <h4>Quality Assurance Officer</h4>
+                                            <p>I created and maintain a QA policy including pre and post rollout checklists. I collect the lessons learned after each project and update the policy accordingly.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+                            
                             <li class="timeline-inverted">
                                 <div class="posted-date">
-                                  <span class="month">July 2012 - present</span>
+                                  <span class="month">June 2013 - March 2016</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Lead developer non e-commerce</h3>
+                                            <span><a href="https://www.studioemma.com" rel="external">Studio Emma bvba</a></span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>
+                                                Most of the projects where based on Zend Framework, including Pimcore and some Magento2 websites.
+                                                I created estimates for new projects, helped the project manager with the planning and coached other developers.
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+                            
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">July 2012 - June 2013</span>
                                 </div><!-- /posted-date -->
 
                                 <div class="timeline-panel wow fadeInUp">
@@ -209,21 +254,13 @@
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
-                                            <p>As a developer I get assigned to multiple online projects. Most of them based on Zend Framework, including Pimcore and Magento2 websites. I also have several other roles at Studio Emma.</p>
-                                            
-                                            <h4>Quality Assurance Officer</h4>
-                                            <p>I create a QA policy including pre and post rollout checklists. I collect the lessons learned after each project and update the policy and checklists accordingly.</p>
-
-                                            <h4>Lead developer non e-commerce</h4>
-                                            <p>
-                                                I created estimates for new projects, helped the project manager with the planning and coached other developers.
-                                            </p>
+                                            <p>As a developer I got assigned to multiple online projects. These where legacy websites written in a company specific CMS based on Zend Framework I. The new projects where developed in Pimcore.</p>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div> <!-- /timeline-panel -->
                             </li>
 
-                            <li>
+                            <li class="timeline-inverted">
                                 <div class="posted-date">
                                   <span class="month">January - June 2012</span>
                                 </div><!-- /posted-date -->
@@ -236,7 +273,7 @@
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
-                                            <p>I tested a custom developed webbased application that manages memberships, event subscriptions and members insurance. I also created the ICT policy which is still in effect today. To make sure this would be kept in place I created a working group consisting of volunteers.</p>
+                                            <p>I tested a custom developed webbased application that manages memberships, event subscriptions and members insurance. I also created the ICT policy which is still in effect today. To make sure the policy would be kept in place I created a working group consisting of volunteers interested in the subject.</p>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
@@ -341,7 +378,7 @@
     </section><!--End Volunteering Section-->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section section-padding">
+    <section id="contact" class="contact-section section-padding no-print">
       <div class="container">
         <h2 class="section-title wow fadeInUp">Get in touch</h2>
 
@@ -415,7 +452,6 @@
   <script src="assets/js/jquery.stellar.min.js"></script>
 	<script src="assets/js/jquery.sticky.js"></script>
   <script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/wow.min.js"></script>
   <script src="assets/js/jquery.countTo.js"></script>
   <script src="assets/js/jquery.inview.min.js"></script> 
   <script src="assets/js/jquery.easypiechart.js"></script>
@@ -423,7 +459,6 @@
   <script src="assets/js/jquery.magnific-popup.min.js"></script>
   <script src="assets/js/jquery.form.js"></script>
   <script src="assets/js/jquery.validate.min.js"></script>
-  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
   <script src="assets/js/jquery.fitvids.js"></script>
   <script src="assets/js/form.js"></script>
   <script src="assets/js/scripts.js"></script>
