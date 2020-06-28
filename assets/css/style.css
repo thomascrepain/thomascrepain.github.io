@@ -911,6 +911,18 @@ Resume Timeline
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
+
+    .timeline>li .timeline-panel:hover a,
+    .timeline>li .timeline-panel:hover a:focus,
+    .timeline>li .timeline-panel:hover a:hover,
+    .timeline>li.timeline-inverted .timeline-panel:hover {
+        color: #282828;
+        -webkit-transition:all 400ms;
+        -moz-transition:all 400ms;
+        -o-transition:all 400ms;
+        transition: all 400ms;
+    }
+
 .timeline>li .timeline-panel::after {
     left: 100%;
     margin-left: 0px;
