@@ -69,11 +69,15 @@ jQuery(function ($) {
     // Full Screen Slider
     // -------------------------------------------------------------
     (function () {
-        $(".tt-fullHeight").height($(window).height());
+        let printMediaMatcher = window.matchMedia('print');
 
-        $(window).resize(function(){
+        if (!printMediaMatcher.matches) {
             $(".tt-fullHeight").height($(window).height());
-        });
+
+            $(window).resize(function(){
+                $(".tt-fullHeight").height($(window).height());
+            });
+        }
 
     }());
 

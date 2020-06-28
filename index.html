@@ -17,10 +17,8 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen, print">
     <!-- Animate css -->
     <link href="assets/css/animate.css" rel="stylesheet">
-    <!-- Magnific css -->
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
     <!-- Custom styles CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+    <link href="assets/css/style.css" rel="stylesheet" media="screen, print">
     <link href="assets/css/print.css" rel="stylesheet" media="print">
     <!-- Responsive CSS -->
     <link href="assets/css/responsive.css" rel="stylesheet">
@@ -41,7 +39,7 @@
 
 <body>
 	<!-- Home Section -->
-	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+	<section id="home" class="tt-fullHeight no-print" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
 		<div class="intro">
 			<h1>Thomas <span>Crepain</span></h1>
             <p class="no-print">
@@ -60,6 +58,12 @@
       </div> <!-- /.social-icons -->
 		</div>
 	</section><!-- End Home Section -->
+
+	<section id="home" class="print" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+        <div class="intro">
+            <h1>Thomas <span>Crepain</span></h1>
+        </div>
+    </section>
 
 	<!-- Navigation -->
 	<header class="header">
@@ -94,9 +98,9 @@
 
         <div class="row">
 
-          <div class="col-md-4 col-md-push-8">
+          <div class="col-md-4 col-md-push-8 no-print">
             <div class="biography">
-              <div class="myphoto no-print"
+              <div class="myphoto"
                    onmouseover="$('.myphoto img').attr('src', 'assets/images/myphoto-hover.jpg');"
                    onmouseout="$('.myphoto img').attr('src', 'assets/images/myphoto.jpg');">
                 <img src="assets/images/myphoto.jpg" 
@@ -353,7 +357,7 @@
     </section><!-- End Resume Section -->
 
     <!--Volunteering Section-->
-    <section id="leisure" class="leisure-section">
+    <section id="leisure" class="leisure-section section-padding">
         <div class="container">
             <h2 class="section-title">Leisure</h2>
             

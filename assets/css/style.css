@@ -46,6 +46,10 @@ body, html{
     overflow-x:hidden;
 }
 
+.print {
+    display: none;
+}
+
 /* Link style
 ---------------------------------------------------------*/
 a {
@@ -821,7 +825,7 @@ Resume Timeline
 
 
 
-@media(min-width:992px) {
+@media screen and (min-width:992px) {
 .timeline:before {
     left: 50%;
 }

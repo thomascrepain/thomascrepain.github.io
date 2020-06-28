@@ -1,8 +1,8 @@
-ody{
-    font-family: 'Roboto', Georgia, 'Times New Roman', sans-serif;
-    line-height 1.1em;
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.1em;
     font-weight: 300;
-    font-size: 10pt;	
+    font-size: 1em;
     color:#282828 !important;
     background-color: #fff;
 }
@@ -15,6 +15,11 @@ a:link:after {
    display: none !important;
 }
 
+.print {
+    display: inherit !important;
+}
+
+
 nav, footer {
    display: none !important;
 }
@@ -24,5 +29,32 @@ nav, footer {
 }
 
 #home {
-    height: auto !important;
+    background: #FFFFFF;
+    background-size: unset;
+    padding: 0;
+    height: 5em;
+}
+
+.intro h1 {
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.short-info {
+    margin-bottom: 0.25em;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    line-height: 2em;
+    margin-bottom: 0.25em;
+}
+
+.section-title::after {
+    background: none no-repeat 0 0;
+}
+
+.section-padding {
+    padding: 0.5em 0 0.5em;
 }
