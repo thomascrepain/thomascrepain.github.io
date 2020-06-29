@@ -2,10 +2,40 @@ body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.1em;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 0.8em;
     color:#282828 !important;
     background-color: #fff;
+    padding: 1em;
 }
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin-bottom: 0.25em;
+}
+
+.timeline-heading h3,
+h3 {
+    font-size: 1em;
+    margin-bottom: 0.25em;
+}
+
+h4 {
+    font-size: 0.9em;
+}
+
+h5 {
+    font-size: 0.8em;
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
 
 a:link:after {
     content: " (" attr(href) ") ";
@@ -48,6 +78,7 @@ nav, footer {
     text-align: center;
     font-size: 2em;
     line-height: 2em;
+    margin-top: 0.25em;
     margin-bottom: 0.25em;
 }
 
@@ -58,3 +89,60 @@ nav, footer {
 .section-padding {
     padding: 0.5em 0 0.5em;
 }
+
+.timeline>li {
+    margin-bottom: 0.5em;
+}
+
+.timeline>li .posted-date {
+    font-size: 1em;
+    margin-top: 0.25em;
+}
+
+.resume-title {
+    margin-bottom: 0.25em;
+}
+
+.resume:before,
+.resume:after {
+    display: none;
+}
+
+/* === Courses === */
+.courses-overview {
+    padding-left: 20px;
+}
+
+/* === Leisure Section === */
+.leisure-section {
+    background: none;
+    color: #282828;
+}
+.leisure-section .section-title{
+    color: #282828;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+.leisure-section .section-title h2{
+    color: #282828;
+}
+.leisure-title {
+    width: 25%;
+    float: left;
+}
+.leisure-title h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -6px;
+    text-transform: capitalize;
+}
+.leisure-section .timeline>li .posted-date{
+    background: none;
+}
+.leisure-section .timeline>li .posted-date .month{
+    color:#282828;
+}
+.leisure-section .timeline-content {
+    background: none;
+}
+
